@@ -8,6 +8,8 @@ def main():
         date = input('Date: ').strip()
 
         #Check format of input date string and split
+        if "/" in date:
+            month, day, year = date.split('/')
         
 
 
