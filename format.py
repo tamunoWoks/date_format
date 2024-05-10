@@ -9,7 +9,13 @@ def main():
 
         #Check format of input date string and split
         if "/" in date:
+            #split input at forward slash
             month, day, year = date.split('/')
+        elif "," in date:
+            #remove comma from input
+            date = date.replace(',','')
+            #split input at whitespace
+            month, day, year = date.split()
         
 
 
