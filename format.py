@@ -25,6 +25,10 @@ def main():
             #convert month and days to int and ensurethey are not more than12 and 31 respectively
             if int(month) > 12 or int(day) > 31:
                 continue
+            else:
+                break
+        except ValueError:
+            continue
         
 
 
