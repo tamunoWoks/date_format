@@ -16,6 +16,9 @@ def main():
             date = date.replace(',','')
             #split input at whitespace
             month, day, year = date.split()
+        else:
+            #return to input if both conditions fail
+            continue
         
 
 
