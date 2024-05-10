@@ -29,9 +29,9 @@ def main():
                 break
         except ValueError:
             continue
-        
-
-
+    
+    #Print output in desired date format
+    print(f'{year}-{int(month):02}-{int(day):02}')
 
 
 if __name__ == "__main__":
